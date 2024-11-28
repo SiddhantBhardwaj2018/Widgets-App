@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <!--
+   <CheckBox
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/checkBox"
+       android:text="pizza"
+       android:textSize="24sp"
+   />
+
+   <RadioGroup
+       android:id="@+id/radioGroup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+   </RadioGroup>
+   <Spinner
+       android:id="@+id/spinner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       tools:layout_editor_absoluteX="46dp"
+       tools:layout_editor_absoluteY="160dp" />  -->
+<!--
+   <TimePicker
+       android:id="@+id/timePicker"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       tools:layout_editor_absoluteX="0dp"
+       tools:layout_editor_absoluteY="230dp" /> -->
+  <!--
+   <RadioButton
+       android:id="@+id/radioButton1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Tomato"
+       android:textSize="32sp"
+       tools:layout_editor_absoluteX="204dp"
+       tools:layout_editor_absoluteY="74dp" />
+
+   <RadioButton
+       android:id="@+id/radioButton2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Cheese"
+       android:textSize="32sp"
+       tools:layout_editor_absoluteX="203dp"
+       tools:layout_editor_absoluteY="120dp" />
+       -->
+  <!--
+   <DatePicker
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/datePicker"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="View Date"
+       android:id="@+id/datePickerBtn"
+       android:textSize="25sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/datePicker" />
+ -->
+
+   <ProgressBar
+       android:id="@+id/progressBar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:layout_editor_absoluteX="0dp" />
+
+   <Button
+       android:id="@+id/progressBtn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Click Me"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="@+id/progressBar"
+       app:layout_constraintStart_toStartOf="@+id/progressBar"
+       app:layout_constraintTop_toTopOf="@+id/progressBar"
+       app:layout_constraintVertical_bias="0.334" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
